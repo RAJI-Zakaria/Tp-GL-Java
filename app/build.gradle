@@ -11,6 +11,12 @@ plugins {
     id 'application'
 }
 
+jar {
+ manifest {
+ attributes "Main-Class": "Main"
+ }
+}
+
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
@@ -22,6 +28,8 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.1-jre'
+        implementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+
 }
 
 application {
