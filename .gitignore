@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Mac specific files
+.DS_Store
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+.settings.json
+.launch.json
